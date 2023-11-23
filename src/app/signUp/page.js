@@ -1,8 +1,5 @@
 'use client'
-import { Box, Grid, Typography, Button, Link } from "@mui/material";
-import { useState } from 'react'
-import Modal from "@mui/material";
-import SignIn from "../signIn/page";
+import { Button , Link } from "@mui/material";
 
 const SignUp = () => {
 
@@ -12,9 +9,9 @@ const SignUp = () => {
             <main>
                 <h3>Sign Up to have access to our best clothing site</h3>
                 <div className="holder">
-                    <input placeholder="Name" type="name" />
-                    <input placeholder="Gmail" type="email" />
-                    <input placeholder="Password" type="password" />
+                    <input placeholder="Name" type="name" required="required" />
+                    <input placeholder="Gmail" type="email" required="required" />
+                    <input placeholder="Password" type="password" required="required" />
                 </div>
 
                 <input id="checkbox" type="checkbox" /><span>Remember This</span>

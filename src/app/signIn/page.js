@@ -9,8 +9,8 @@ const SignIn = () => {
             <div className="sign-in-page">
                 <div id="inputs">
                     <h3>Sign In</h3>
-                    <input placeholder="Name" type="name" />
-                    <input placeholder="Password" type="password" />
+                    <input placeholder="Email" type="email" required="required" />
+                    <input placeholder="Password" type="password" required="required" />
                 </div>
                 <div className="btns">
                     <Link className="back-to-signup" href="/signUp">Back</Link>
